@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meal App</title>
+    <script src="https://kit.fontawesome.com/2eafec57ec.js" crossorigin="anonymous"></script>
+    
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Nav-Bar section -->
+    <div id="nav" class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+          <img id="app-icon" style="height: 60px; width: 60px; border-radius: 50%;" src="data:image/png;base64,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">
+          <a style='font-weight: 500; font-size: 50px' class="navbar-brand" href="index.html">Meal App</a>
+
+           <!-- Nav-Bar toggler for FavoriteList -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" onclick="showFavMealList()">
+                <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- Header of FavoriteList -->
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color:white ;">
+                Your Favourites are Here.!
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- Body of FavoriteList -->
+            <div id="favourites-body" class="offcanvas-body d-flex justify-content-center flex-wrap">
+              <div class="meal-card" id="meal">
+                <!-- Meal content -->
+
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Body of WebPage -->
+    <div class="body-container">
+      <!-- Title and Input section -->
+      <header>     
+          <h1>Find Your Food Here!!</h1>
+          <input type="text" id="mealSearchInput" placeholder="Search for a meal">
+      </header>
+
+      <main>
+          <div id="searchResults" class="meal-grid">
+              <!-- Search results will be displayed here -->
+              
+          </div>
+          <div id="dummy-text">
+            Your Results will be Here !!...
+          </div>
+      </main>
+  </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+ 
