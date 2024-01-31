@@ -45,3 +45,6 @@ This web application is for searching and managing meal recipes. Users can searc
 - The code stores user favorites in local storage, which may be limited or disabled in some browser settings. Ensure local storage is enabled for the best experience.
 
 Enjoy exploring and managing your favorite meals with this Meal Finder web app!
+
+## Website Link
+ https://vishnuajk.github.io/Meal-Web-App/
